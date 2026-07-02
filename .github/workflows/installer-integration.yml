@@ -7,9 +7,6 @@ on:
       - 'src/openjarvis/cli/**'
       - 'tests/install/**'
       - '.github/workflows/installer-integration.yml'
-  schedule:
-    - cron: '0 6 * * *'
-
 jobs:
   container-matrix:
     name: ${{ matrix.image }}
