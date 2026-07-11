@@ -61,6 +61,7 @@ site/
 frontend/node_modules/
 frontend/dist/
 src/openjarvis/server/static/
+*.tsbuildinfo
 
 # Desktop (Tauri)
 frontend/src-tauri/target/
